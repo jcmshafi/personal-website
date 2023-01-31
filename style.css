@@ -2,6 +2,10 @@ body{
     font-family: sans-serif;
     margin: 0;
 }
+.h2-center{
+    text-align: center;
+    
+}
 .half-width{
     
     float: left;
@@ -9,16 +13,31 @@ body{
     margin-top: 5%;
     
 }
+.onethird-width{
+    
+    float: left;
+    width: 25%;
+    margin: 2%;
+    margin-left: 5%;
+      
+}
+/* .latest-work .onethird-width{
+    margin-left: 40px;
+} */
+
 .context{
     margin-top: 13%;
     margin-left: 20%;
-
+    padding: 2%;
     
 }
 
 .half-width img{
     width: 100%;
     
+}
+.onethird-width img {
+    width: 100%;
 }
 
 .red-highlight{
@@ -39,9 +58,18 @@ section{
     
 }
 .top-banner{
-    background-image: url("images/header-bg.png");
+    background-image: url("images/header-bg2.png");
     background-repeat: no-repeat;
 
     
 }
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg2.png");
+    background-repeat: no-repeat;
+}
+
 
